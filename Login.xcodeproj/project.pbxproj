@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		52F9D84225C9676B00C5021C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9D84125C9676B00C5021C /* AppDelegate.swift */; };
 		52F9D84425C9676B00C5021C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9D84325C9676B00C5021C /* SceneDelegate.swift */; };
-		52F9D84625C9676B00C5021C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9D84525C9676B00C5021C /* ViewController.swift */; };
+		52F9D84625C9676B00C5021C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9D84525C9676B00C5021C /* LoginViewController.swift */; };
 		52F9D84925C9676B00C5021C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F9D84725C9676B00C5021C /* Main.storyboard */; };
 		52F9D84B25C9676E00C5021C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F9D84A25C9676E00C5021C /* Assets.xcassets */; };
 		52F9D84E25C9676E00C5021C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F9D84C25C9676E00C5021C /* LaunchScreen.storyboard */; };
+		52F9D85725C96D8C00C5021C /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9D85625C96D8C00C5021C /* WelcomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52F9D83E25C9676B00C5021C /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F9D84125C9676B00C5021C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52F9D84325C9676B00C5021C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52F9D84525C9676B00C5021C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52F9D84525C9676B00C5021C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		52F9D84825C9676B00C5021C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52F9D84A25C9676E00C5021C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F9D84D25C9676E00C5021C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52F9D84F25C9676E00C5021C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F9D85625C96D8C00C5021C /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				52F9D84125C9676B00C5021C /* AppDelegate.swift */,
 				52F9D84325C9676B00C5021C /* SceneDelegate.swift */,
-				52F9D84525C9676B00C5021C /* ViewController.swift */,
+				52F9D84525C9676B00C5021C /* LoginViewController.swift */,
 				52F9D84725C9676B00C5021C /* Main.storyboard */,
+				52F9D85625C96D8C00C5021C /* WelcomViewController.swift */,
 				52F9D84A25C9676E00C5021C /* Assets.xcassets */,
 				52F9D84C25C9676E00C5021C /* LaunchScreen.storyboard */,
 				52F9D84F25C9676E00C5021C /* Info.plist */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52F9D84625C9676B00C5021C /* ViewController.swift in Sources */,
+				52F9D84625C9676B00C5021C /* LoginViewController.swift in Sources */,
 				52F9D84225C9676B00C5021C /* AppDelegate.swift in Sources */,
 				52F9D84425C9676B00C5021C /* SceneDelegate.swift in Sources */,
+				52F9D85725C96D8C00C5021C /* WelcomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
