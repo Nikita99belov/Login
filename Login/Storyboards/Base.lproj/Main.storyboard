@@ -38,7 +38,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                                 <connections>
-                                                    <action selector="loginInAction" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="zZ3-pR-IAm"/>
+                                                    <action selector="loginInAction" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="iSy-xI-wpH"/>
                                                     <outlet property="delegate" destination="BYZ-38-t0r" id="ENV-ri-S8M"/>
                                                 </connections>
                                             </textField>

@@ -16,12 +16,6 @@ class LoginViewController: UIViewController  {
     private let password = DataUser.showDataUser().password
     private let userName = DataUser.showDataUser().userName
         
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        passwordTextField.text = "12345"
-        userTextField.text = "Nik"
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let tabBarController = segue.destination as! UITabBarController
         let tabBarCuntrollers = tabBarController.viewControllers!
@@ -44,7 +38,7 @@ class LoginViewController: UIViewController  {
     
     @IBAction func forgotUserAction(_ sender: Any) {
         textDelited()
-        showLoginAlert(title: "Oops!", message: "Your name in Alex 😉")
+        showLoginAlert(title: "Oops!", message: "Your name in Nik 😉")
     }
     
     @IBAction func forgotPasswordAction(_ sender: Any) {
@@ -53,7 +47,7 @@ class LoginViewController: UIViewController  {
     }
     
     @IBAction func loginInAction() {
-        if  userTextField.text != user && passwordTextField.text != password {
+        if  userTextField.text != user || passwordTextField.text != password {
             showLoginAlert(title: "Invalid login or password",
                            message: "Please, enter correct login and password",
                            textField: passwordTextField)
